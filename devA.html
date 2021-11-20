@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // var a = 10;
+    // var b ="5";
+    // console.log(a + b);//105
+    // console.log(a - b);//5
+    // console.log(a * b);//50
+    // console.log(a / b);//2
+    //总结：除了+会拼接，其余的都会隐式转换
+
+    //null和underfind
+    // var nll = null;
+    // var nll2;
+    // var c ="";
+    // console.log(nll.toString());
+    // console.log(nll2.toString());
+    // console.log(String(nll));//null
+    // console.log(String(nll2));//undefined
+    // console.log("------------");//null
+    // console.log(Boolean(0));
+    // console.log(Boolean(c));
+    // console.log(Boolean(nll));
+    // console.log(Boolean(nll2));
+
+    //规律：字符串类型加上+号或者-号 会自动转换成数值类型，如果字符串中存在非数字字符，则返回NaN
+    // var str = "10";
+    // console.log(+str);// 10
+    // console.log(-str);// -10
+
+    // var str1 = "10abc";
+    // console.log(+str1);//NaN
+    // console.log(-str1);//NaN
+
+    // console.log(str-0);//10
+    // console.log(str1-0);//NaN
+    // console.log(str1+0);//进行了拼接
+
+    var a = 1;
+    console.log(++a);
+    console.log(a++);
+    console.log(a++);
+</script>
+</html>
